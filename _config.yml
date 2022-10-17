@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 探索未来
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: wings-of-gold
+language: zh-CN
 timezone: ''
 
 # URL
@@ -97,9 +97,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: 3-hexo
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repository: git@github.com:wings-of-gold/wings-of-gold.github.io.git
+  branch: master
